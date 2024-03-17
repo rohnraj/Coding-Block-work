@@ -5,9 +5,10 @@ int main(){
 
     
     int a;
+    string str;
     cin>>a;
-    cin.get;//it work same as getch or getchar where
+    cin.get();//it work same as getch or getchar where
     //'/n' is stored here which is empty character
-    char ch=cin.getLine()
+    getline(cin, str);
    cout<<a<<" "; 
 }

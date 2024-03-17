@@ -1,4 +1,5 @@
 #include<iostream>
+#include<cstring>
 using namespace std;
 void rotationString(char *a, int n){
 
@@ -18,12 +19,12 @@ void rotationString(char *a, int n){
         i++;
         j++;
     }
-    a[lena]='\0'
+    a[lena]='\0';
 }
 int main(){
 
     char a[100]="coding";
     int n=40;
-    rotationString(a,5000);
+    rotationString(a,100);
     cout<<a<<endl;
 }

@@ -1,16 +1,16 @@
-/*#include<iostream>
-using namespace std;
-int sum(int x, int y, int z=0/* z wala default hai*/){
+// #include<iostream>
+// using namespace std;
+// int sum(int x, int y, int z=0/* z wala default hai*/){
 
-    return x+y+z;
-}
+//     return x+y+z;
+// }
 
-int main(){
+// int main(){
 
-    int a=10, b=20, c=30;
-    cout<<"sum1: "<<sum(a,b,c)<<endl;
-    cout<<"Sum2: "<<sum(a,b);
-}*/
+//     int a=10, b=20, c=30;
+//     cout<<"sum1: "<<sum(a,b,c)<<endl;
+//     cout<<"Sum2: "<<sum(a,b);
+// }
 
 #include<iostream>
 using namespace std;
