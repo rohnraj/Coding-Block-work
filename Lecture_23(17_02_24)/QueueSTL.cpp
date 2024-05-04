@@ -56,6 +56,7 @@ public:
             count++;
         }
         return count;
+        // return rear +1; ye wrong hojega bcz delete front se ho rha hai
     }
     bool isempty(){
 

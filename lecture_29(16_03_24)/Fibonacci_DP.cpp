@@ -1,5 +1,6 @@
 #include<iostream>
-#define mk(arr, n, v) int *arr=new int[n+1]; for(int i=0;i<=n;i++){arr[i]}
+#define mk(arr,n,v) int *arr = new int[n + 1]; for (int i = 0; i <= n; ++i){arr[i] = v;}
+
 using namespace std;
 
 int fibo(int n){
@@ -26,5 +27,6 @@ int main(){
     int n;
     cin>>n;
     mk(dp, n, -1);
-    cout<<top
+    cout<<topDown(n,dp)<<endl;
+    cout<<bottomUp(n);
 }

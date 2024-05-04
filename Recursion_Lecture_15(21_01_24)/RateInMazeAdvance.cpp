@@ -33,6 +33,7 @@ bool RatInMaze(char maze[][10], int i, int j, int n, int m, int sol[][10]) {
 		bool kyaNeecheSeMazeSolveHui = RatInMaze(maze, i + 1, j, n, m, sol);
 		if (kyaNeecheSeMazeSolveHui == true) {
 			return true;
+			
 		}
 	}
 	// 3. left Side se check karo
